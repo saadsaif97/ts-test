@@ -1,0 +1,58 @@
+.contact-navs.nav {
+  width: 100%;
+  justify-content: center;
+}
+.contact-container {
+  width: 400px;
+  margin: 10px auto 3rem auto;
+  color: #999;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  background-color: #8a00830e;
+}
+.contact-heading h2 {
+  color: #000;
+  font-weight: 900;
+}
+
+/* support-section styling */
+.support {
+  width: 100%;
+  padding: 20px;
+}
+.nav-pills .nav-link.active {
+  color: #fff !important;
+  background-color: #8a0082;
+}
+.nav-pills .nav-link {
+  color: #000 !important;
+  background-color: #8a00830e;
+  padding: 0.5rem 1rem;
+}
+.support .email,
+.support .address,
+.support .phone {
+  display: flex;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.support .email .icon,
+.support .address .icon,
+.support .phone .icon {
+  color: #8a0082;
+}
+.support .email .text,
+.support .address .text,
+.support .phone .text {
+  margin-left: 20px;
+}
+/* contact-section styling */
+.contact-form {
+  padding: 20px;
+}
+.contact-form .contact-btn {
+  background-color: #8a0082;
+  color: #fff;
+}

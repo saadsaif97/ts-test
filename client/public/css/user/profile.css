@@ -1,0 +1,178 @@
+.user {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.user .profile {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0px 0px 1px #ccc;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.user .profile .bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user .img {
+  width: 160px;
+  height: 160px;
+}
+.user .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.user .profile .stats {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  color: #858585;
+}
+.user .profile .stats .location,
+.user .profile .stats .member-since,
+.user .profile .stats .dob {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.user .profile .stats .location .icon,
+.user .profile .stats .member-since .icon,
+.user .profile .stats .dob .icon {
+  color: #8a0082;
+}
+.user .profile .stats .location .icon span,
+.user .profile .stats .member-since .icon span,
+.user .profile .stats .dob .icon span {
+  color: #858585 !important;
+}
+.user .profile .stats .location .text,
+.user .profile .stats .member-since .text,
+.user .profile .stats .dob .text {
+  color: #444;
+  font-weight: 700;
+}
+.user .profile .about,
+.user .profile .social-accounts {
+  margin-top: 16px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.user .profile .skills {
+  margin-top: 16px;
+}
+.user .profile .about .heading,
+.user .profile .skills .heading,
+.user .profile .social-accounts .heading {
+  color: #444;
+  display: flex;
+  justify-content: space-between;
+}
+/* social-accounts section */
+.user .profile .social-accounts .social-accounts-list {
+  list-style: none;
+  padding: 0px !important;
+}
+.user .profile .social-accounts .social-accounts-list a {
+  color: #0d6efd;
+  margin-top: 4px;
+  display: block;
+}
+/* skills section */
+.user .profile .skills .skills-list {
+  padding: 0px;
+}
+.user .profile .skills .skills-list .skills-bubble-item {
+  border: 1px solid #e5e5e5;
+  border-radius: 15px;
+  display: inline-block;
+  position: relative;
+  min-width: 40px;
+  text-align: center;
+  padding: 3px 12px;
+  margin: 0 10px 10px 0;
+  transition: background 0.2s ease-in-out;
+}
+.user .profile .skills .skills-list .skills-bubble-item:hover {
+  background-color: #eee;
+}
+.user .profile .skills .skills-list .skills-bubble-item span {
+  color: #555;
+  font-size: 14px;
+}
+
+.user .profile .link-btn span {
+  color: #0d6efd;
+  font-size: 14px;
+}
+.user .profile .link-btn span:hover {
+  border-bottom: 1px solid #0d6efd;
+  cursor: pointer;
+}
+.user .profile .profile-bottom {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.user .profile .edit-profile-btn {
+  background-color: #8a0082;
+  color: #fff;
+  margin-left: auto;
+  display: block;
+}
+/* profile education and experince section */
+.user .education-section,
+.user .experience-section {
+  padding: 20px;
+  box-shadow: 0px 0px 1px #ccc;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.user .education-section .education,
+.user .experience-section .profile-experience {
+  margin-bottom: 20px;
+}
+.user .education-section .education-title,
+.user .experience-section .experience-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+.user .education-section .education-title span,
+.user .experience-section .experience-title span {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.user .education-section .institute,
+.user .experience-section .company {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.user .education-section .duration,
+.user .experience-section .duration {
+  color: #555;
+}
+.user .experience-section .job-description {
+  color: #858585;
+}
+
+/* profile-btns */
+.profile-editBtn,
+.profile-addBtn {
+  display: inline-block;
+  border: none;
+  color: #fff;
+  background-color: #8a0082;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px #ccc;
+}
+.profile-editBtn:hover,
+.profile-addBtn:hover {
+  background-color: #61035c;
+}

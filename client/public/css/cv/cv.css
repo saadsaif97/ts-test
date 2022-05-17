@@ -1,0 +1,202 @@
+.download-resume {
+  width: 100%;
+}
+.download-resume button {
+  display: block;
+  margin-left: auto;
+}
+.download-resume button img {
+  width: 50px;
+}
+.cv {
+  position: relative;
+  background-color: #8a00830e;
+}
+.candidate {
+  position: absolute;
+  display: flex;
+  top: 8%;
+  left: 0;
+  /* background-color: burlywood; */
+  z-index: 1;
+  width: 100%;
+}
+.candidate .bio {
+  background-color: #8a0082;
+  width: 60%;
+  padding: 20px 20px 20px 160px;
+}
+.candidate .bio .name {
+  font-size: 38px;
+  font-weight: 400;
+  color: #fff;
+}
+.candidate .bio .designation {
+  font-size: 22px;
+  color: #fff;
+}
+.cv .candidate .img-container {
+  width: 40%;
+}
+.cv .candidate-img {
+  width: 220px;
+  height: 220px;
+  z-index: 10;
+  position: absolute;
+  top: 4%;
+  left: 32%;
+}
+.cv .candidate-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid #8a0082;
+}
+
+/* cv left-side styling */
+.cv .left-side {
+  padding-bottom: 30px;
+  padding-top: 300px;
+  /* background-color: darkgoldenrod; */
+}
+
+.cv .cv-heading {
+  background-color: #8a0082;
+  color: #fff;
+  text-align: right;
+  padding: 10px 10%;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  margin-top: 20px;
+}
+
+.cv .title {
+  display: flex;
+}
+.cv .title .heading {
+  margin-left: 10px;
+  color: #333;
+}
+.cv .title .icon {
+  color: #8a0082;
+  font-size: 22px;
+}
+.cv .description {
+  color: #666;
+}
+.cv .description .title {
+  font-weight: none;
+}
+.cv .description .text {
+  font-size: 14px;
+}
+/* cv right-side styling */
+.cv .right-side {
+  background-color: #330030;
+  padding-top: 300px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+/* Contact me section */
+.cv .right-side .contact-me {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cv .right-side .contact-me .heading {
+  color: #fff;
+  font-size: 22px;
+  border: 2px solid #fff;
+  padding: 3px 0px;
+  width: 80%;
+  text-align: center;
+}
+.cv .right-side .contact-me .contact {
+  display: flex;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+}
+.cv .right-side .contact-me .contact .icon {
+  color: #8a0082;
+  font-size: 20px;
+  width: 20px;
+}
+.cv .right-side .contact-me .contact .details {
+  margin-left: 10px;
+}
+.cv .right-side .contact-me .contact .details .title {
+  font-weight: 700;
+}
+.cv .right-side .contact-me .contact .details .description {
+  color: #fff;
+}
+/* Sikills-section */
+.cv .right-side .skills {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.cv .right-side .skills .heading {
+  color: #fff;
+  font-size: 22px;
+  border: 2px solid #fff;
+  padding: 3px 0px;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.cv .right-side .skill {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+.cv .right-side .skill .name {
+  color: #fff;
+}
+.cv .right-side .skill .weight {
+  width: 80%;
+}
+.cv .right-side .skill .weight progress {
+  width: 100%;
+  border: none;
+}
+.cv .right-side .skill .weight progress::-webkit-progress-bar {
+  background-color: #fff;
+}
+.cv .right-side .skill .weight progress::-webkit-progress-value {
+  background-color: #8a0082;
+}
+
+/* social-links section */
+.cv .right-side .social-links {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.cv .right-side .social-links .bar {
+  height: 2px;
+  background-color: #fff;
+  width: 80%;
+}
+.cv .right-side .social-links .links {
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+  width: 80%;
+}
+.cv .right-side .social-links .links .link {
+  font-size: 40px;
+}

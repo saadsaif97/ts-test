@@ -1,0 +1,172 @@
+/* filters-section styling */
+.form-check-input:checked {
+  background-color: #8a0082;
+}
+.filters h3 {
+  font-weight: 700;
+}
+.filters .accordion-item {
+  margin-top: 10px;
+  border: 1px solid #ccc !important;
+  width: 300px;
+  position: relative;
+  border-radius: 4px;
+}
+
+.filters .accordion-button {
+  color: #fff;
+  background-color: #8a0082;
+}
+.filters .accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.filters .accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: initial;
+  box-shadow: none;
+}
+.filters .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+.filters .accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+/* occupation-styling */
+.occupation-container {
+  border-top: 1px solid #ccc;
+  padding: 10px 0px;
+}
+.occupation-container button {
+  border: none;
+  background-color: #8a0082;
+  color: #fff;
+  padding: 3px;
+  border-radius: 4px;
+}
+/* location-styling */
+.location-container {
+  border-top: 1px solid #ccc;
+  padding: 10px 0px;
+}
+.location-container button {
+  border: none;
+  background-color: #8a0082;
+  color: #fff;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+/* Profiles-section styling */
+.profiles {
+  height: 640px;
+  overflow-y: auto;
+}
+/* filters container scrollbar styling */
+/* width */
+.profiles::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.profiles::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px grey;
+  border-radius: 4px;
+}
+
+/* Handle */
+.profiles::-webkit-scrollbar-thumb {
+  background: #8a0082;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+.profiles::-webkit-scrollbar-thumb:hover {
+  background: #330030;
+}
+/*  */
+.profile {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #8a008338;
+  position: relative;
+}
+.profile:hover {
+  box-shadow: 2px 2px 4px #ccc;
+}
+.profile .favourite {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.profile.profile-light {
+  background-color: #8a00830e;
+}
+.profile .img {
+  width: 120px;
+  height: 120px;
+}
+.profile .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile .bio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.profile .bio .name {
+  font-size: 24px;
+  font-weight: 700;
+}
+.profile .bio .designation {
+  font-weight: 700;
+  color: #666;
+}
+.profile .description .about {
+  margin-top: 5px;
+}
+.profile .description .about .heading {
+  font-size: 20px;
+  font-weight: 700;
+}
+.profile .description .about .text {
+  font-size: 18px;
+  color: #444;
+}
+.profile .description .location {
+  color: #999;
+}
+.profile .description .footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 14px;
+}
+.rating {
+  color: #8a0082;
+}
+.rating,
+.salary-range,
+.experience,
+.qualification {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.view-profile a {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #8a0082;
+  color: #8a0082;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.view-profile a:hover {
+  background-color: #8a0082;
+  color: #fff;
+}
